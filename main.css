@@ -1,0 +1,267 @@
+html , body , h1{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    top: 0px;
+    left:0px;
+  
+}
+
+.hero{
+    width:480px;
+    height: 640px;
+    background-image: url(img/bak.png);
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    background-position:bottom;
+    position: absolute;
+    top:-63px;
+    left:2%;
+    float: right;
+    
+}
+
+header{
+    width: 100%;
+    height: 576px;
+    margin: 0px;
+    padding: 0px;
+    border-bottom: solid #4a4a4a 1px;
+    background-color: #51A3A3;
+    
+    
+}
+
+.about{
+    width:50%;
+    height: 300px;
+    display: block;
+    padding-top: 130px;
+    padding-left: 50%;
+    margin: 0;
+    
+}
+
+h1{
+    font-size: 28px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.short{
+    display: block;
+    font-size: 18px;
+    text-align: justify;
+    width: 70%;
+    padding-top: 18px;
+    box-sizing:border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.button{
+    margin-top: 15px;
+    margin-right: 0;
+    display: block;
+    width: 180px;
+    height: 40px;
+    border: solid #000000 1px;
+    border-radius: 3px;
+    text-align: center;
+}
+.button > a{
+    text-decoration:none;
+    font-size: 20px;
+    color: #000000;
+    display: block;
+    height:35px;
+    margin-top:5px; 
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    
+}
+.button:hover{
+    border: solid #fff 1px;
+    color: #fff;
+}
+.button > a:hover{
+    color:#fff;
+}
+.more{
+    width:100%;
+    height: 600px;
+}
+
+h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 40px;
+    
+}
+.half{
+    width:49.99%;
+    display: inline-block;
+    float: left;
+    height: 500px;
+}
+.shalf{
+    width: 50%;
+    height: 500px;
+    display: inline-block
+}
+
+.dog1 { 
+    background-repeat: no-repeat;
+    display: block;
+    height: 128px;
+    padding-top:30px;;
+    margin-left:35px;
+
+}
+
+.bath{
+    background-repeat: no-repeat;
+    display: block;
+    height: 128px;
+    margin-left: 35px;
+    padding-top: 30px;
+    
+}
+.sad{
+    background-repeat: no-repeat;
+    display: block;
+    height: 128px;
+    margin-left: 35px;
+    padding-top: 30px;
+
+}
+.smell { 
+    background-repeat: no-repeat;
+    display: block;
+    height: 128px;
+    padding-top:30px;;
+    margin-left:35px;
+
+}
+
+.bad{
+    background-repeat: no-repeat;
+    display: block;
+    height: 128px;
+    margin-left: 35px;
+    padding-top: 30px;
+    
+}
+.food{
+    background-repeat: no-repeat;
+    display: block;
+    height: 128px;
+    margin-left: 35px;
+    padding-top: 30px;
+}
+.wrap{
+    display: inline-block;
+    padding-left:80%;
+    height: 128px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    width:100%; 
+} 
+
+.bath:hover, .dog1:hover, .sad:hover, .smell:hover, .bad:hover, .food:hover{
+    opacity: 0.8;
+    
+}
+
+.wrap::selection, h1::selection, h2::selection,.about::selection,.short::selection,a::selection,.home::selection,h3::selection,label::selection,strong::selection,input::selection{
+    background: #000000;
+    color: #fff;
+}
+.bakmoon{
+    width: 100%;
+    height: 700px;
+    background-color: #51A3A3;
+    position: static;
+}
+
+.moon {
+    height: 128px;
+    background-repeat: no-repeat;
+    margin-left:5%;
+    transform: scale(0.7);
+    position: relative;
+    top:33px; 
+    
+}
+.rocket{
+    height:200px;
+    width: 145px;
+    background-repeat: no-repeat;
+    background-size:auto;
+    margin-left: 5%;
+    margin-top: 10px;
+    float: left;
+    position: relative;
+    top: 90px;
+    left:8.5%;
+}
+
+
+h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align:left;
+    padding-top:20px;  ;
+    font-size: 24px;
+}
+
+.land{
+    height: 140px;
+    width: 508px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    position:relative;
+    top: 432px;
+    left: 1%;
+    z-index: 3;
+}
+
+.help{
+    float: right;
+    width: 40%;
+    height: 300px;
+    position: relative;
+    margin-right: 20%;
+    top: -140px;
+}
+
+.home{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+.bhelp{
+    display: block;
+    width: 180px;
+    box-shadow:inset 0px 34px 0px -15px #d92828;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    background:#dd2b2b;
+    margin-top: 20px;
+    margin-bottom:25px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+    
+}
+
+input{
+    background-color: transparent;
+    border-width: 0px;
+    font-size: 26px;
+    margin-left: 15px;
+    
+}
